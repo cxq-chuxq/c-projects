@@ -13,105 +13,105 @@ int main(void){
     if(a == b){
         if(a == c){
             if(a == d){
-                printf("最小值为%d\n", a);
+                printf("最大值为%d\n", a);
             }
             else if(a > d){
-                printf("最小值为%d\n", d);
+                printf("最大值为%d\n", a);
             }
-            else{
-                printf("最小值为%d\n", a);
+            else if(a < b){
+                printf("最大值为%d\n", b);
             }
         }
         else if(a > c){
-            if(c == d){
-                printf("最小值为%d\n", c);
+            if(a == d){
+                printf("最大值为%d\n", a);
             }
-            else if(c > d){
-                printf("最小值为%d\n", d);
+            else if(a > d){
+                printf("最大值为%d\n", a);
             }
-            else if(c < d){
-                printf("最小值为%d\n", c);
+            else if(a < d){
+                printf("最大值为%d\n", d);
             }
         }
         else if(a < c){
-            if(a == d){
-                printf("最小值为%d\n", a);
+            if(c == d){
+                printf("最大值为%d\n", c);
             }
-            else if(a > d){
-                printf("最小值为%d\n", d);
+            else if(c > d){
+                printf("最大值为%d\n", c);
             }
-            else if(a < d){
-                printf("最小值为%d\n", a);
+            else if(c < d){
+                printf("最大值为%d\n", d);
             }
         }
     }
     else if(a < b){
-        if(a == c){
+        if(b == c){
             if(a == d){
-                printf("最小值为%d\n", a);
+                printf("最大值为%d\n", b);
             }
-            else if(a > d){
-                printf("最小值为%d\n", d);
+            else if(b > d){
+                printf("最大值为%d\n", b);
             }
-            else if(a < d){
-                printf("最小值为%d\n", a);
+            else if(b < d){
+                printf("最大值为%d\n", d);
             }
         }
-        else if(a > c){
+        else if(b > c){
+            if(b == d){
+                printf("最大值为%d\n", b);
+            }
+            else if(b > d){
+                printf("最大值为%d\n", b);
+            }
+            else if(b < d){
+                printf("最大值为%d\n", d);
+            }
+        }
+        else if(b < c){
             if(c == d){
-                printf("最小值为%d\n", c);
+                printf("最大值为%d\n", c);
             }
             else if(c > d){
-                printf("最小值为%d\n", d);
+                printf("最大值为%d\n", c);
             }
             else if(c < d){
-                printf("最小值为%d\n", c);
-            }
-        }
-        else if(a < c){
-            if(a == d){
-                printf("最小值为%d\n", a);
-            }
-            else if(a > d){
-                printf("最小值为%d\n", d);
-            }
-            else if(a < d){
-                printf("最小值为%d\n", a);
+                printf("最大值为%d\n", d);
             }
         }
     }
     else if(a > b){
-        if(b == c){
-            if(b == d){
-                printf("最小值为%d\n", b);
+        if(a == c){
+            if(a == d){
+                printf("最大值为%d\n", a);
             }
-            else if(b > d){
-                printf("最小值为%d\n", d);
+            else if(a > d){
+                printf("最大值为%d\n", a);
             }
-            else if(b < d){
-                printf("最小值为%d\n", b);
+            else if(a < d){
+                printf("最大值为%d\n", d);
             }
         }
-        else if(b > c){
+        else if(a > c){
+            if(a == d){
+                printf("最大值为%d\n", a);
+            }
+            else if(a > d){
+                printf("最大值为%d\n", a);
+            }
+            else if(a < d){
+                printf("最大值为%d\n", d);
+            }
+        }
+        else if(a < c){
             if(c == d){
-                printf("最小值为%d\n", c);
+                printf("最大值为%d\n", c);
             }
             else if(c > d){
-                printf("最小值为%d\n", d);
+                printf("最大值为%d\n", c);
             }
             else if(c < d){
-                printf("最小值为%d\n", c);
-            }
-        }
-        else if(b < c){
-            if(b == d){
-                printf("最小值为%d\n", b);
-            }
-            else if(b > d){
-                printf("最小值为%d\n", d);
-            }
-            else if(b < d){
-                printf("最小值为%d\n", b);
+                printf("最大值为%d\n", d);
             }
         }
     }
